@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    background-image: url(image/bg.jpg);
+    /* display: flex;
+    flex-direction:column ; */
+    background-size:cover;
+    width: 100%;
+    min-height:100px ;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #eee;
+    padding-left: 30px;
+
+}
+.second{
+    padding: 40px 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.card-1{
+    margin:40px 0px;
+    color: #eee;
+    font-weight: 900;
+    border-bottom: 2px solid #EEe;
+    width: fit-content;
+}
+h2{
+    margin-bottom:10px ;
+    
+    font-size:45px ;
+}
+.logo{
+    color: rgb(3, 0, 152);
+    font-size: 20px;
+}
+.card-2{
+    margin-top: 90px;
+    margin-bottom:20px ;
+    font-size: 20px;
+    color: #c4c4eb;
+}
+.login{
+    padding: 4px 80px;
+    border-radius: 10%;
+    border: 2px solid #eee ;
+    
+}
+.sign{
+    padding: 4px 80px;
+    border-radius: 10%;
+    margin-right: 10px;
+    border: 2px solid #eee ;
+    
+}
+.btn{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
